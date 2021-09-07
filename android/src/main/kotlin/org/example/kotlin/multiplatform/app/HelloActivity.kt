@@ -32,7 +32,8 @@ class HelloActivity : AppCompatActivity() {
             }
 
             override fun showError(error: String) {
-                Snackbar.make(findViewById(R.id.rootView), error, Snackbar.LENGTH_SHORT).show()
+                println(error)
+                Snackbar.make(findViewById(R.id.rootView), error, Snackbar.LENGTH_LONG).show()
             }
         }
     }

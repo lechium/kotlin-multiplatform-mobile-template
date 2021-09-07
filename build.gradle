@@ -1,8 +1,7 @@
 buildscript {
     repositories {
         google()
-        maven { url "http://dl.bintray.com/kotlin/kotlin-eap" }
-        maven { url "https://kotlin.bintray.com/kotlinx" }
+    //    maven { url "https://kotlin.bintray.com/kotlinx" }
         maven { url "https://plugins.gradle.org/m2/" }
         mavenCentral()
         jcenter()
@@ -21,7 +20,6 @@ subprojects {
     buildscript{
         repositories {
             google()
-            maven { url "http://dl.bintray.com/kotlin/kotlin-eap" }
             maven { url "https://kotlin.bintray.com/kotlinx" }
             maven { url "https://plugins.gradle.org/m2/" }
             mavenCentral()
@@ -34,7 +32,6 @@ subprojects {
         jcenter()
         google()
         maven { url "https://kotlin.bintray.com/kotlinx" }
-        maven { url "http://dl.bintray.com/kotlin/ktor" }
     }
 
     apply plugin: "io.gitlab.arturbosch.detekt"
